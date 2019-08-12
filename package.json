@@ -1,0 +1,24 @@
+{
+  "name": "chart-alt",
+  "version": "1.0.0",
+  "description": "Add an accessible, alternative format to your Chart.js chart",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "chart.js": "2.7.3",
+    "core-js": "^2.6.9",
+    "jest": "24.8.0",
+    "patternomaly": "1.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "@types/chart.js": "latest",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

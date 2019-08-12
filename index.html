@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>chart-alt: Bar Chart example</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="src/styles_doc.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+		integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+		crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div>
+		<header>
+			<h1>chart-alt</h1>
+			<h2>bar chart example</h2>
+		</header>
+
+		<section class="examples">
+
+			<article id="intro">
+				<h3>Create chart</h3>
+				<div class="codeblock">
+					<span class="codecomment">// create Chart.js chart from canvas element context and bar chart
+						options</span>
+					<code>let ctx = document.getElementById("chart").getContext("2d");</code>
+					<code>let chart = new Chart(ctx, coffeeChart);</code>
+				</div>
+			</article>
+
+			<article id="addChartAlt_noToggle">
+				<h3>Add alt format, no toggle</h3>
+				<p>The alternative format for your chart stays visually hidden by default. The alt format is still always
+					accessible to screen readers.</p>
+				<div class="codeblock">
+					<span class="codecomment">// add chart alternative with overview</span>
+					<code>addChartAlt(chart);</code>
+				</div>
+				<canvas id="chart1"></canvas>
+			</article>
+
+			<article id="addChartAlt_toggle">
+				<h3>Add alt format, toggleable</h3>
+				<p>Set toggle true to allow users to switch between viewing the chart and its alt format.</p>
+				<div class="codeblock">
+					<span class="codecomment">// add chart alternative with toggle and overview</span>
+					<code>addChartAlt(chart, true);</code>
+				</div>
+				<canvas id="chart2"></canvas>
+			</article>
+
+		</section>
+		<script src="./index.js"></script>
+
+</body>
+
+</html>
