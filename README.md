@@ -42,7 +42,7 @@ addChartAlt(chart1, true);
 
 
 ### Live example
-orianed.com/chartalt/eg
+http://www.orianed.com/chartalt/eg
 
 ---
 
