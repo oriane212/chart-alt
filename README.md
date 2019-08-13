@@ -42,8 +42,7 @@ addChartAlt(chart1, true);
 
 
 ### Live example
-https://oriane212.github.io/chart-alt
-
+orianed.com/chartalt/eg
 
 ---
 
