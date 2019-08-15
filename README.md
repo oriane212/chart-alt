@@ -7,6 +7,13 @@ With one function call, ```chart-alt```
 - inserts the alt format to the DOM (before the canvas chart)
 - generates and adds fallback text to the canvas chart
 
+---
+[See live example](http://www.orianed.com/chartalt/eg)
+
+
+![toggled view created using chart-alt](barchartHD.gif)
+
+---
 ## How to use
 
 ```chart-alt``` is not yet hosted on a cdn or npm. Until then, clone this repo, install dependencies, and use ```addChartAlt.js``` and ```styles_chartAlt.css``` from the src folder. 
@@ -27,7 +34,7 @@ let chart1 = new Chart(ctx1, coffeeChart);
 addChartAlt(chart1);
 ```
 
-### ```Toggle```
+### Toggle
 
 By default, the alt format remains out of view and only accessible to screen readers. 
 
@@ -37,12 +44,6 @@ If you want to give users the option to see the alt format, set the ```toggle```
 ```javascript
 addChartAlt(chart1, true);
 ```
-
-![toggled view created using chart-alt](barchartHD.gif)
-
-
-### Live example
-http://www.orianed.com/chartalt/eg
 
 ---
 
